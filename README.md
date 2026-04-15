@@ -1,48 +1,59 @@
-# Análisis de Materialidad ASG en una Consultora de Desarrollo Web  
-**UD05 — Taller 1: Stakeholders y Materialidad**  
-**Módulo:** Sostenibilidad Aplicada al Sistema Productivo (1708)  
-**Fecha:** 15 de abril de 2026
+# Taller 1 — Stakeholders y Materialidad en el Sector Web
 
-
-## 1. Metodología Aplicada
-La actividad se ha ejecutado en tres fases:
-
-### 1.1 Investigación Académica
-Se consultaron fuentes especializadas mediante **Google Scholar**, **arXiv** y **Dialnet**, siguiendo las recomendaciones del documento *Motores de Búsqueda Académicos*.  
-Se utilizaron términos como *Green IT*, *Materiality in ICT*, *Web Sustainability*, *Energy-efficient software* y *Digital Governance*.
-
-La selección de fuentes priorizó:
-- Relevancia para el sector TIC  
-- Acceso abierto  
-- Rigor científico  
-- Aplicabilidad a entornos web  
-
-### 1.2 Identificación de Stakeholders y Temas Materiales
-Se analizaron los actores que influyen o se ven afectados por la actividad de una consultora web, así como los aspectos ASG con mayor impacto en su desempeño.
-
-### 1.3 Estructuración en XML
-Se creó el archivo `materialidad.xml` siguiendo buenas prácticas de documentación técnica:
-- Etiquetas claras y semánticas  
-- Atributos descriptivos  
-- Comentarios explicativos  
-- Indentación consistente  
+Este repositorio contiene el desarrollo completo del Taller 1 del módulo **Sostenibilidad Aplicada al Sistema Productivo (UD05)**.  
+El objetivo es identificar los **grupos de interés (stakeholders)** y los **aspectos ASG materiales** para una consultora web, estructurándolos en un archivo XML y documentando el proceso.
 
 ---
 
-## 2. Stakeholders Identificados
-Los siguientes grupos de interés se consideran críticos para una consultora web:
+## 1. Stakeholders Identificados
 
-- **Clientes corporativos** — Exigen eficiencia, cumplimiento normativo y soluciones digitales sostenibles.  
-- **Usuarios finales** — Afectados por la accesibilidad, la privacidad y la experiencia de uso.  
-- **Proveedores de infraestructura cloud** — Su huella energética y políticas ASG influyen directamente en el servicio prestado.
+Según la teoría de Freeman y el análisis del documento UD05, los principales grupos de interés son:
+
+- **Clientes corporativos** — Alta influencia en los objetivos empresariales.  
+- **Usuarios finales** — Relevancia social por accesibilidad y privacidad.  
+- **Proveedores cloud** — Impacto ambiental por consumo energético.
 
 ---
 
-## 3. Temas Materiales ASG
-Los aspectos materiales seleccionados reflejan los impactos más relevantes del sector web:
+## 2. Temas Materiales (ASG)
 
-- **Eficiencia energética del código** (*Ambiental*)  
-- **Accesibilidad universal** (*Social*)  
-- **Privacidad y gobernanza de datos** (*Gobernanza*)  
+### **A — Ambiental**
+- *Eficiencia energética del código* (Green Code).  
+  Minimización del uso de CPU y memoria para reducir la huella digital.
 
-Estos temas se integran en el archivo XML para facilitar su análisis estructurado.
+### **S — Social**
+- *Accesibilidad universal*.  
+  Garantizar que las aplicaciones web sean inclusivas.
+
+### **G — Gobernanza**
+- *Transparencia algorítmica*.  
+  Explicar y auditar decisiones automatizadas.
+
+---
+
+## 3. Archivo XML
+
+El archivo `materialidad.xml` contiene:
+
+- Raíz `<empresa_sostenible>`  
+- Tres nodos `<stakeholder>` con atributo `importancia`  
+- Tres nodos `<tema_material>` con atributo `impacto` (A, S o G)
+
+---
+
+## 4. Fuentes (Formato IEEE)
+
+[1] R. E. Freeman, *Strategic Management: A Stakeholder Approach*. Cambridge University Press, 2010.  
+[2] K. Berntsen et al., “Sustainability in Software Engineering – A Systematic Mapping,” 2017.  
+[3] United Nations Global Compact, *Pymes y sostenibilidad. Guía para aumentar su impacto ASG*, 2024.  
+[4] IBM, “¿Qué es la codificación verde y por qué es importante?”, 2026.
+
+---
+
+## 5. Gestión de Versiones (Commits recomendados)
+
+1. **docs:** añadido README inicial y referencias IEEE  
+2. **feat:** creada estructura base de `materialidad.xml`  
+3. **refactor:** completados nodos ASG y comentarios explicativos
+
+---
