@@ -1,1 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<empresa_sostenible>
+
+    <!-- Stakeholders principales de una consultora web -->
+    <stakeholder nombre="Clientes corporativos" importancia="muy_alta">
+        Clientes que contratan el desarrollo web y exigen rendimiento, seguridad y cumplimiento normativo.
+    </stakeholder>
+
+    <stakeholder nombre="Usuarios finales" importancia="alta">
+        Personas que utilizan las aplicaciones web y requieren accesibilidad, privacidad y buena experiencia de uso.
+    </stakeholder>
+
+    <stakeholder nombre="Proveedores cloud" importancia="alta">
+        Plataformas que alojan los servicios y cuyo consumo energético afecta al impacto ambiental.
+    </stakeholder>
+
+    <!-- Temas materiales ASG -->
+    <tema_material nombre="Eficiencia energética del código" impacto="Ambiental">
+        Optimización de CPU, memoria y ciclos de ejecución para reducir la huella digital.
+    </tema_material>
+
+    <tema_material nombre="Accesibilidad universal" impacto="Social">
+        Garantizar que las aplicaciones sean utilizables por personas con diversas capacidades.
+    </tema_material>
+
+    <tema_material nombre="Transparencia algorítmica" impacto="Gobernanza">
+        Explicar cómo funcionan los algoritmos y asegurar decisiones éticas y auditables.
+    </tema_material>
+
+</empresa_sostenible>
